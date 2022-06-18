@@ -9,6 +9,7 @@ public class    HelloController {
 
     @FXML
     protected void onHelloButtonClick() {
-        welcomeText.setText("Wciścnięt przycisk");
+        int x = Integer.parseInt(welcomeText.getText())+1;
+        welcomeText.setText(String.valueOf(x));
     }
 }

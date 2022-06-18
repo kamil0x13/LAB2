@@ -9,6 +9,6 @@
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
 
-    <Label fx:id="welcomeText" />
-    <Button onAction="#onHelloButtonClick" text="Wciśnij aby wyświetnić tekst" />
+    <Label fx:id="welcomeText" text="0" />
+    <Button onAction="#onHelloButtonClick" text="Wciśnij aby zwiększyć powyższą wartość" />
 </VBox>
